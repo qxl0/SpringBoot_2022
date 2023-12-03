@@ -1,0 +1,35 @@
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven specific
+target/
+
+# Gradle specific
+build/
+.gradle
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Other files and directories to ignore
+*.swp
+*~
