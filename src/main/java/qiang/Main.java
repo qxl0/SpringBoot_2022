@@ -10,7 +10,6 @@ public class Main {
 
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
         Doctor staff = context.getBean(Doctor.class);
-        System.out.println(staff.getQualification());
         staff.assist();
     }
 }
