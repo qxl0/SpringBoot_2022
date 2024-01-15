@@ -13,7 +13,10 @@ public class Main {
                 new AnnotationConfigApplicationContext(BeanConfig.class);
         Doctor staff = context.getBean(Doctor.class);
         staff.assist();
-        Staff nurse = context.getBean(Nurse.class);
-        nurse.assist();
+        staff.setQualification("MBBS");
+        System.out.println(staff);
+
+        Doctor doctor1 = context.getBean(Doctor.class);
+        System.out.println(doctor1);
     }
 }
